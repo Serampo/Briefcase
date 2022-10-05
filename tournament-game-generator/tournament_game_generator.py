@@ -1,28 +1,28 @@
 # Write your code here.
 def get_number_of_teams():
-    num_teams = 0
-    while num_teams < 2:
+    while True:
         num_teams = int(input("Enter the number of teams in the tournament:"))
-        if num_teams < 2:
-            print("The minimum number of teams is 2, try again.")
-        elif num_teams >= 2:
-            print(f"The number of teams in this tournament is {num_teams}")
+        if num_teams >= 2:
+            break
+
+        print("The minimum number of teams is 2, try again")
     return num_teams
 
 
 def get_team_names(num_teams):
     team_names = []
-    for num_teams in range(num_teams + 1):
-        while num_teams:
-            team_names1 = input(
-                f"Enter the name for team #{num_teams}: ")
-            if len(team_names1) < 2:
-                print("Team names must have at least 2 characters, try again")
-
-            if len(team_names1) > 2:
+    for teamNumber in range(num_teams):
+        while True:
+            team_names1 = input(f"Enter the name for team #{teamNumber + 1}: ")
+            num_words = len(team_names1.split(" "))
+            if num_words > 2:
                 print("Team names must have at most 2 words, try again")
+            elif len(team_names1) < 2:
+                print("Team names must have at least 2 characters, try again")
             else:
-                team_names1 = team_names.append(team_names1)
+                break
+        team_names.append(team_names1)
+    return team_names
 
 
 def get_number_of_games_played(num_teams):
