@@ -28,7 +28,6 @@ def get_team_names(num_teams):
 def get_number_of_games_played(num_teams):
     pass
 
-
 def get_team_wins(team_names, games_played):
     pass
 
