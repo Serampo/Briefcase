@@ -1,5 +1,6 @@
+import random
 
-decryptext = input("Put the numbers you want to decrypt: ")
+decryptext = str(random.randrange(1,99999999))
 
 # We define the list of the alphabet for iteration purposes
 
