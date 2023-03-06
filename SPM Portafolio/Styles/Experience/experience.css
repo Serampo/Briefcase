@@ -1,0 +1,108 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;    
+    background-color: #F5F5F5 ;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    align-items: center;
+}
+
+.experience__section__title{
+    font-family: Roboto;
+    font-size: 35px;
+}
+.experiencie__box__Encriptador{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    font-family: Roboto;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.experiencie__box__RPU{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    font-family: Roboto;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.experience__info{
+    padding-left: 1rem;
+}
+.experience__title{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.experience__text{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.experience__info__RPU{
+    padding-right: 5rem;
+}
+.experiencia__botao--repo{
+    font-family: Roboto;
+    background:#7ac5f3;
+    border: none;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all .1s ease-in-out ;
+    align-items: center;
+}
+
+.experiencia__botao--repo:hover{
+    cursor: pointer;
+    background: #51aae6;
+
+}
+@media screen and (max-width:480px){
+    .experience{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px; 
+        width: 100%;
+        height: 100px;
+        padding-bottom: 0.5rem;
+    }
+    .experience__img{
+        width: 100%;
+    }
+    .experience__section__title{
+        font-family: Roboto;
+        font-size: 24px;
+        padding-left: 5rem;
+    }
+    .experiencie__box__Encriptador{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        font-family: Roboto;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    .experiencie__box__RPU{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        font-family: Roboto;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+    .experience__info{
+        padding-right: 10rem;
+    }
+    .experience__info__RPU{
+        
+        padding-bottom: 1rem;
+    }
+}

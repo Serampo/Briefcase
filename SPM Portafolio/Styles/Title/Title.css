@@ -1,0 +1,151 @@
+.title__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    padding: 0px;
+    gap: 24px;    
+    background-color: #EAF2FE;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 100%;
+    height: 368px;
+    
+}
+
+
+.title__bio{
+    font-family: Roboto;
+    font-size: 52px;
+    margin-left: 2rem;
+    flex-direction: row;
+    width: 751px;
+    height: 100px;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+
+}
+
+.title__subsection{
+    font-size: 22px;
+    font-family: Roboto;
+    margin-left: 2rem;
+    width: 751px;
+    height: 40px;
+    line-height: 26px;
+    flex: none;
+    margin-bottom: 20px;
+    padding-left: 5rem;
+    
+    
+}
+
+.title__network__item{
+    display: flex;
+    font-family: Roboto;
+    font-size: 15px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 467px;
+    height: 25px;
+    
+}
+.title__network__item__marks{
+    width: 15px;
+    height: 15px;
+}
+
+
+.title__profile{
+    
+    height: 368px;
+    width: 368px;       
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    flex: none;
+    order: 1;
+    padding-right: 10rem;
+         
+
+
+}
+@media screen and (max-width:480px){
+    .title__container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start ;
+        padding: 0px;
+        gap: 24px;    
+        background-color: #EAF2FE;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        width: 100%;
+        height: 280px;
+        align-self: stretch;
+        
+    }
+    .title__bio{
+                
+        width: 328px;
+        height: 52px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        justify-content: center;
+    }
+    .title__subsection{
+            
+        width: 328px;
+        height: 52px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .title__network{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        
+        width: 318px;
+        height: 16px;
+                       
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        padding-left:  2.5rem;
+        padding-right: 0.5rem;
+    }
+    .title__profile{
+        display: none;
+    }
+}

@@ -1,0 +1,63 @@
+.academic{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;    
+    flex: none;
+    background-color: #ffff ;
+    order: 1;
+    flex-grow: 0;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+}
+.academic__courses{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    font-family: Roboto;
+}
+.academic__courses__item__title__Eco{
+    text-align: center;
+}
+.academic__courses__item__subtitle__Eco{
+    text-align: center;
+}
+.academic__title{
+    font-family: Roboto;
+    font-size: 35px;
+}
+@media screen and (max-width:480px){
+    .academic{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px; 
+        width: 100%;
+        height: 600px;
+        padding-bottom: 0.5rem;
+    }
+    .academic__courses{
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+        font-family: Roboto;
+    }
+    .academic__title{
+        font-family: Roboto;
+        font-size: 24px;
+        padding-left: 5rem;
+    }
+    .academic__courses__item__title__Eco{
+        text-align:justify;
+        padding-left: 1rem;
+    
+    }
+    .academic__courses__item__subtitle__Eco{
+        text-align: justify;
+        padding-left: 1rem;
+    }
+    .academic__courses__box{
+        padding-right: 3rem;
+    }
+}

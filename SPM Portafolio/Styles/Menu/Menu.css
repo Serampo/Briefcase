@@ -1,0 +1,69 @@
+.menu{
+    font-family: Roboto;
+    display: flex;
+    margin-right:0%;
+    padding-left: 2rem;
+    
+
+}
+
+.menu__list{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+
+    align-items: center;
+
+    
+    padding: 0.26rem;
+    padding-right: 2rem;
+
+    text-align: right;
+    position: absolute;
+    right: 0;
+}
+.menu__link{
+ color:#808080;
+ margin-right: 1.25rem;
+}
+
+.menu__link:hover{
+    text-decoration: underline;
+}
+.menu__link.activo{
+    color:#333333;
+
+}
+
+@media screen and (max-width:480px) {
+    .menu{
+        font-family: Roboto;
+        display: flex;
+        margin-right:0%;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        
+    }
+    .menu__list__item{
+        display: none;
+    }
+    .menu__list__item__Correo{
+        display: flex;
+        font-size: 12px;
+        flex-direction: row;
+        text-align: right;
+        
+        right: 0;
+            
+    }
+    .menu__title{
+        font-size: 12px;
+        text-align: center;
+        padding-top: 0.5rem;
+        
+    }
+}

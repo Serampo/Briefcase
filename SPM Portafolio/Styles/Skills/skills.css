@@ -1,0 +1,94 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;    
+    background-color: #EAF2FE;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.skills:hover{
+    background-color:  #d1d8e2;
+    transition: all .2s ease-in-out;
+}
+
+.skills__title{
+    font-family: Roboto;
+    display: flex;
+    flex-direction: Column;
+    padding-left: 7rem;
+    font-size: 24px;
+    
+}
+
+.skills__line{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    font-family: Roboto;
+    
+}
+
+.skills__img{
+    height: 50px;
+    width: 50px;
+}
+.skills__box__one{
+    display: flex;
+    flex-direction: row;
+}
+.skills__box__two{
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width:480px){
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px; 
+        width: 100%;
+        height: 250px;
+        padding-bottom: 0.5rem;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+        
+    }
+   
+    .skills__title{
+        font-family: Roboto;
+        display: flex;
+        flex-direction: Column;
+        font-size: 24px;
+        height: 50px;
+        padding-left: 9rem;
+        
+    }
+    .skills__line{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        font-family: Roboto;
+        
+    }
+    .skills__box__one{
+        
+        flex-direction: row;
+    }
+    .skills__box__two{
+        
+        flex-direction: column;
+    }
+}
