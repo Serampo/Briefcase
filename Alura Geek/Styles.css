@@ -1,0 +1,121 @@
+/* Header */
+body {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    width: 100vw;
+}
+ol,
+ul,
+li {
+    list-style: none;
+}
+.todo {
+    margin: 0 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+/* Banner*/
+.Banner{
+    display: flex;
+    background-image: url(Assets/banner-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height:360px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    padding: 32px;
+    gap: 16px;
+
+
+
+}
+.Banner__Tittle1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #F5F5F5;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.Banner__Tittle{
+    display: flex;
+    color: #F5F5F5;
+    font-family: Montserrat;
+    padding: 0px;
+    margin-top: 0px;
+}
+/* Videojuegos*/
+.Videojuegos{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+
+    width: 1136px;
+    height: 306px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Videojuegos-item{
+    width: 174px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 16px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: relative;
+    
+}
+
+/* Consolas*/
+.consolas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1136px;
+    height: 306px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+/*Variedad*/
+.Variedad__Geek{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1136px;
+    height: 306px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
