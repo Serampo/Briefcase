@@ -1,0 +1,65 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    padding: 0px;
+    gap: 24px;    
+    background-color: #EAF2F7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 100%;
+    height: 30px;
+    padding: 7rem;
+    
+    
+}
+.about__title{
+    font-family: Roboto;
+    font-style: Bold;
+    font-weight: 700;
+    
+}
+
+.about__paragraph{
+    font-family: Roboto;
+    font-weight: 300;
+    
+}
+@media screen and (max-width:480px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px; 
+        width: 100%;
+        height: 150px;
+        padding-bottom: 0.5rem;
+        
+        /* Azul/10% */
+        background: #EAF2FD;
+        
+        /* Inside auto layout */
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .about__title{
+        font-family: Roboto;
+        font-style: Bold;
+        font-weight: 700;
+        
+        padding-left: 2rem;
+        
+    }
+    .about__paragraph{
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 12px;
+        width: 328px;
+        height: 52px;
+        padding-left: 2rem;
+    }
+}

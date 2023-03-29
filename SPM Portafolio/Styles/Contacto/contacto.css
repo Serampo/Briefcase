@@ -1,0 +1,150 @@
+.formcontato{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;    
+    background-color: #EAF2FD ;
+   
+    align-items: center;
+    width: 100%;
+    height: 788px
+}
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    font-family: Roboto;
+}
+.formcontato__img{
+    padding-top:5rem;
+}
+.formcontato__title{
+    font-family: Roboto;
+    font-size: 30px;
+    padding-left: 1rem;
+    padding-top: 3.5rem;
+}
+.formcontato__subtext{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+    gap: 32px;
+    
+    width: 656px;
+    height: 397px;
+      
+}
+.formcontato__input{
+    width: 656px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+}
+.formcontato__textarea{
+    width: 656px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    padding-bottom: 0rem;
+}
+.formcontato__botao{
+    font-family: Roboto;
+    background:#7ac5f3;
+    border: none;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all .1s ease-in-out ;
+    align-items: center;
+    
+}
+.formcontato__botao:hover{
+    cursor: pointer;
+    background: #51aae6;
+    
+}
+@media screen and (max-width:480px){
+    .formcontato{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px; 
+        width: 100%;
+        height: 700px;
+        padding-bottom: 0.5rem;
+    }
+    .formcontato__contacto{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        font-family: Roboto;
+        
+    }
+    .formcontato__img{
+        display: none;
+    }
+    .formcontato__title{
+        font-family: Roboto;
+        font-size: 24px;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+    }
+    .formcontato__subtext{
+        width: 360px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        width: 290px;
+    }
+    .formcontato__input{
+        width: 290px;
+        height: 35px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    
+    
+    }
+    .formcontato__textarea{
+        width: 290px;
+        height: 90px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        padding-bottom: 0rem;
+    }
+    .formcontato__botao{
+        font-family: Roboto;
+        background:#7ac5f3;
+        border: none;
+        color: #fdfdfd;
+        padding: 1rem;
+        transition: all .1s ease-in-out ;
+        align-items: center;
+        
+    }
+}

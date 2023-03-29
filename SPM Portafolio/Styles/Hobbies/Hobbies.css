@@ -1,0 +1,91 @@
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;    
+    background-color: #EAF2FE;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+.hobbies:hover{
+    background-color:  #d1d8e2;
+    transition: all .2s ease-out;
+}
+
+.hobbies__title{
+    font-family: Roboto;
+    display: flex;
+    flex-direction: Column;
+    padding-left: 7rem;
+    font-size: 24px;
+}
+.hobbies__box__one{
+    display: flex;
+    flex-direction: row;
+}
+.hobbies__box__two{
+    display: flex;
+    flex-direction: row;
+}
+.hobbies__line{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    font-family: Roboto;
+}
+
+.hobbies__img{
+    align-items: center;
+}
+.hobbies__name{
+    font-family: Roboto;
+    text-align: center;
+}
+
+@media screen and (max-width:480px){
+    .hobbies{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px; 
+        width: 100%;
+        height: 250px;
+        padding-bottom: 0.5rem;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+        
+    }
+    .hobbies__line{
+        display: flex;
+        flex-direction: row;
+        padding-left: 1rem;
+        font-family: Roboto;
+        
+    }
+    .hobbies__title{
+        font-family: Roboto;
+        display: flex;
+        flex-direction: Column;
+        font-size: 24px;
+        height: 50px;
+        padding-left: 8.5rem;
+    }
+    .hobbies__box__one{
+        flex-direction: column;
+        padding-right: 2rem;
+        padding-left: 1.5rem;
+    }
+    .hobbies__box__two{
+        flex-direction: column;
+    }
+
+}
